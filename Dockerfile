@@ -1,5 +1,5 @@
 # Base Chrome Headless image
-FROM golang:1.9
+FROM golang:1.10.3
 
 # System setup
 ENV DEBIAN_FRONTEND=noninteractive \
